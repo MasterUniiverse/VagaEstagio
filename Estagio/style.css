@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+div{
+ position: relative;
+ text-align: center;
+}
+
+div.conteudo{
+    width: 1058px;
+    height: 1382px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+div.barra-lateral{
+    width: 220px;
+    height: 2508px;
+    display:  inline-block;
+    position: fixed;
+    top: 0;
+    left: 9.5%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border: 1px grey solid;
+}
+h1.barra-lateral-titulo{
+    background-color: orange;
+    width: 100%;
+    color: white;
+    padding: 30px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+div.contente{
+    border: solid black 1px;
+    width: 1278px;
+    margin: auto;
+    position: relative;
+}
+
+div.barra-lateral-menu ul{
+    list-style-type: none;
+}
+
+li{
+    border-bottom: 1px #aaa solid;
+    text-align: left;
+    margin-left: -40px;
+    padding: 10px 20px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+li:hover{
+  background-color: #FDF1EB;
+  border-left: 5px solid #ED7839;
+}
+
+.menu-principal-perfil p {
+   display: inline-block;
+   margin-top: 30px;
+}
+
+p.menu-principal-perfil img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+
+}
+
+div.menu-principal-perfil, 
+div.menu-principal-cabecalho{
+    display: inline-block;
+}
+
+div.menu-principal-cabecalho{
+    width: 70%;
+}
+
+div.menu-principal-perfil{
+    width: 29%; 
+}
+
+#menu-text-1, #menu-text-3, #menu-text-2{
+    text-align: left;
+    padding: 0px 10px;
+    line-height: 0px;
+}
+
+#menu-text-1, #menu-text-3{
+    font-size: 14px;
+    
+}
+#menu-text-2{
+    font-size: 22px;
+}
+
+p.menu-principal-boasvindas{
+    text-align:  right;
+}
+
+img#menu-img-1{
+   float:  right;
+   margin-top: -15px;
+}
+
+div.div-conteudo-principal{
+ display: inline-block;
+}
+
+div.conteudo-principal{
+    width: 70%;
+    display: inline-block;
+    margin: 2px;
+}
+
+div.conteudo-principal-doladinho{
+    width: 29%;
+    display: inline-block;
+    margin-top: 0px;
+    right: -10px;
+}
+
+div.conteudo-principal img{
+    width: 100%;
+    padding: 10px;
+}
+
+div.conteudo-principal p{
+    color: #ED7839;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    letter-spacing: 0.05em;
+
+}
+div.texto-doladinho h2{
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 25px;
+}
+div.texto-ladinho-h2{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+div.texto-doladinho{
+    text-align: left;
+    margin: 5px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+div.comentarios{
+    border-radius: 3px;
+    margin: 15px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+div.div-comentarios-h2{
+    background-color: #FDF1EB;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+div.comentarios h2{
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+div.comentarios p{
+    height: 100px;
+    overflow: hidden;
+}
+
+div.comentarios p:hover{
+    height: 300px;
+}
+
+div.texto-doladinho h2, div.resumo-comentarios,header{
+    background-color: #FDF1EB;
+}
+
+div.feedback{
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 15px;
+}
+
+div.feed-div-p h2{
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+div.feed-div-p{
+    background-color: #FDF1EB;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    
+}
+
+div.feedback-comentarios{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    margin: 20px;
+    
+}
+
+p.feed-coment-1{
+    color: #ED7839;
+    margin: 0;
+    font-size: 16px;
+}
+p.feed-coment-1, p.feed-coment-2, p.feed-coment-3{
+    margin: 0;
+}
+
+p.feed-coment-2{
+    font-size: 12px;
+}
+
+p.feed-coment-3{
+    font-family: Quicksand;
+    font-size: 14px;
+}
+button{
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    bottom: 24.82%;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
